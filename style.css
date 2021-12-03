@@ -1,0 +1,220 @@
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Century Gothic', sans-serif;
+color: #8e0505
+color: #FFd966
+*/
+
+/******navbar******/
+.navbar {
+  background-color: #FFd966;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-nav {
+  width: 50vw
+}
+
+
+.icon-contact-nav {
+  width: 20vw;
+}
+
+nav a, footer a {
+  color: #8e0505 !important;
+}
+
+/*****general*******/
+
+.btn {
+  background-color: #8e0505;
+  color: #ffffff;
+  font-size: 2em;
+  border-radius: 15px;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 4em;
+  font-weight: bolder;
+  margin-bottom: 3%;
+}
+
+h2 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 2em;
+}
+
+/**************carrousel***************/
+
+.text-carrousel {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  z-index: 1;
+  color: white;
+  height: 20vh;
+  width: 35vw;
+}
+
+.icon-contact-carrousel {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  z-index: 1;
+  color: white;
+
+}
+
+
+.icon-contact-carrousel a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn-carrousel {
+  margin-left: 1vw;
+  width: 50vw;
+}
+
+
+/***********dui sommes nous *******/
+
+#img-qui-sommes-nous {
+  width: 53vw;
+}
+
+/************** nos produits ***************/
+.produit-stock {
+  background-color: #FFd966;
+}
+
+.card {
+  width: 25em;
+}
+
+/****************footer***********/
+
+footer h5 {
+  color: #8e0505;
+  text-align: center;
+}
+
+footer {
+  background-color: #FFd966;
+}
+
+.icon-contact-footer {
+  color: #8e0505;
+}
+
+
+/****************media queries***********/
+
+@media screen and (max-width: 1492px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .text-carrousel {
+    top: 20%;
+    height: 20vh;
+    width: 55vw;
+  }
+
+  h1 {
+    margin-bottom: 1%;
+    font-size: 3em;
+  }
+
+  .icon-contact-nav {
+    width: 55vw;
+    margin-left: 25vw
+  }
+
+  .icon-contact-carrousel {
+    position: absolute;
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .card {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #img-qui-sommes-nous {
+    width: 80vw;
+    height: auto
+  }
+
+  .text-carrousel {
+    top: 0%;
+    width: 70vw
+  }
+
+  .btn-carrousel {
+    margin-left: 0;
+    width: 70vw;
+  }
+
+  .icon-contact-carrousel svg {
+    width: 30px;
+    height: 35px;
+    margin: 0;
+  }
+
+  .btn-carrousel {
+    margin: 0;
+    font-size: 9px;
+    width: 90vw;
+  }
+
+  h1 {
+    margin-bottom: 1%;
+    font-size: 2em;
+  }
+
+  .icon-contact-carrousel {
+    top: 10%;
+    z-index: 1;
+    color: white;
+
+  }
+
+  h2 {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 2em;
+  }
+
+  .text-carrousel h2 {
+    margin-bottom: 0;
+    font-size: 1em;
+  }
+
+  .btn-carrousel {
+    margin-left: 1vw;
+  }
+
+  .btn {
+    font-size: 1em;
+  }
+
+  .icon-contact-carrousel {
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+
+  }
+}
