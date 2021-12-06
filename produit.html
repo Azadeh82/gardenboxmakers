@@ -82,49 +82,11 @@
 
 <body>
 
-  <!---------------------------------carrousel-------------------------------->
-  <section class="container-fluid">
-    <div class="border border-secondary m-md-3 p-md-3">
-      <div class="row">
-        <div class="col">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./photos/carrousel/1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./photos/carrousel/2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./photos/carrousel/3.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./photos/carrousel/4.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./photos/carrousel/5.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./photos/carrousel/6.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!---------------------------------la tête de page produit-------------------------------->
+  <section class="container-fluid" id="header-produit">
 
-    <div class="row text-sur-img-header text-carrousel">
-      <div class="col-md-2 col-lg-2 d-none d-md-block my-auto">
+    <div class="row text-sur-img-header">
+      <div class="col-md-2 col-lg-3 d-none d-md-block my-auto">
         <div class="icon-sur-img-header d-flex flex-column align-items-center">
           <a href="https://www.instagram.com/allprojob/" target="blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
@@ -151,128 +113,9 @@
           </a>
         </div>
       </div>
-      <div class=" col-md-7 col-lg-8 my-auto">
-        <h1>Garden Box Makers</h1>
-        <p>Créateur de jardinières en bois pour aménager vos espaces verts</p>
-      </div>
-      <div id="buttons-carrousel">
-        <button class="btn me-5">plus d'infos </button>
-        <button class="btn">contactez-nous </button>
-      </div>
-
-    </div>
-
-
-  </section>
-
-  <!-- -------------------qui sommes nous-------------------- -->
-
-  <section class="container-fluid ">
-    <div class="border border-secondary m-3 p-3">
-      <div class="row qui-sommes-nous ">
-        <div class="col-lg-5 p-5 text-center my-auto">
-          <h2> QUI SOMMES-NOUS ?</h2>
-          <p>Une petite équipe de passionnés qui réalise pour vous des jardinières de qualité éco-concues et faciles à
-            monter !</p>
-          <button type="button" class="btn">en savoir plus</button>
-        </div>
-
-        <div class="col-lg-7 d-flex order-first order-lg-last justify-content-center">
-          <img id="img-qui-sommes-nous" src="./photos/14.png" alt="qui-sommes-nous">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- ------------------------ nos produits ------------------- -->
-
-  <section class="container-fluid p-md-5 my-5">
-    <h2 class="text-center mb-5">Nos Produits</h2>
-
-    <div class="row produit-stock">
-
-      <h3 class="text-center my-5">Tailles de base (en stock)</h3>
-      <div class="col-md-6 col-lg-3">
-        <div class="card mx-auto m-3" style="width: 15em;">
-          <img src="./photos/carre7.png" class="card-img-top" alt="photo-carée">
-          <div class="card-body">
-            <p class="text-center">Carré <br> 3 x 3 <br> Le Prix: 69 € </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3">
-        <div class="card mx-auto m-3" style="width: 15em;">
-          <img src="./photos/carre8.png" class="card-img-top" alt="photo-carée">
-          <div class="card-body">
-            <p class="text-center">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3">
-        <div class="card mx-auto m-3" style="width: 15em;">
-          <img src="./photos/rectangle10.png" class="card-img-top" alt="photo-rectangle">
-          <div class="card-body">
-            <p class="text-center">Rectangle <br> 3 x 6 <br> Le Prix: 85 € </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3">
-        <div class="card mx-auto m-3" style="width: 15em;">
-          <img src="./photos/rectangle11.png" class="card-img-top" alt="photo-rectangle">
-          <div class="card-body">
-            <p class="text-center">Rectangle <br> 4 x 6 <br> Le Prix: 95 € </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row produit-stock py-5">
-      <div class="col text-center">
-        <button class="btn btn-lg">
-          voir tout le catalogue
-        </button>
-      </div>
-    </div>
-
-    <div class="produit-commande border border-dark p-3 mt-5">
-      <div class="row">
-        <h3 class="text-center my-5">Tailles spéciales</h3>
-        <p>Si vous souhaitez commander des box en forme de “[“ ou de “L”, il vous suffit de nous envoyer les dimensions
-          détaillées. </p>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="card mx-auto l-crochet">
-            <img src="./photos/L6.png" class="card-img-top " alt="photo-l">
-            <div class="card-body text-center">
-              <button class="btn">Devis</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="card mx-auto l-crochet">
-            <img src="./photos/crochet2.png" class="card-img-top" alt="photo-E">
-            <div class="card-body text-center">
-              <button class="btn">Devis</button>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <h3 class="text-center my-5">Tailles personnalisées</h3>
-          <div class="col text-center">
-            <button class="btn"> Commander une box de forme personnalisée</button>
-          </div>
-        </div>
+      <div class="col-md-10 col-lg-9 my-auto">
+        <h1>NOS PRODUITS</h1>
+        <p>100% éco-conçus !</p>
       </div>
 
     </div>
@@ -280,6 +123,119 @@
   </section>
 
 
+
+
+  <!-- ------------------produit en stock -------------------- -->
+
+
+  <section class="container-fluid">
+
+    <div class="row background-jaune text-center">
+      <h2 class="my-5">Tailles de base (en stock)</h2>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/carre7.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/carre8.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/carre9.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <div class="card-body">
+          <p class="text-center mt-5">Je souhaite commander une box carrée d’une autre taille </p>
+          <a href="#" class="btn btn-primary">Devis</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row background-jaune text-center">
+      <h2 class="my-5"></h2>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/rectangle10.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/rectangle11.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <img src="./photos/rectangle12.png" class="card-img-top" alt="carrés">
+        <div class="card-body">
+          <p class="text-center border border-dark">Carré <br> 4 x 4 <br> Le Prix: 79 € </p>
+          <a href="#" class="btn btn-primary">commande</a>
+        </div>
+      </div>
+      <div class="card col-md-6 col-lg-3 mx-auto m-3" style="width: 18rem;">
+        <div class="card-body">
+          <p class="text-center mt-5">Je souhaite commander une box carrée d’une autre taille </p>
+          <a href="#" class="btn btn-primary">Devis</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ------------------------ produits  d'autre tailles------------------- -->
+
+
+  <section class="container-fluid">
+
+    <div class="row text-center">
+      <h2 class="my-5">Tailles spéciales</h2>
+      <p class="mb-5">Nous vous proposons d’autres produits avec des formes en “[“ ou en “L”. Il vous suffit de nous
+        envoyer les
+        dimensions détaillées.</p>
+      <div class="card col-md-6 mx-auto m-3" style="width: 36rem;">
+        <img src="./photos/crochet1.png" class="card-img-top different-modele" alt="img-autre-modele">
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Devis</a>
+        </div>
+      </div>
+      <div class="card col-md-6 mx-auto m-3" style="width: 36rem;">
+        <img src="./photos/L4.png" class="card-img-top different-modele" alt="img-autre-modele">
+        <div class="card-body">
+          <a href="#" class="btn btn-primary">Devis</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row my-5">
+      <div class="col-md-8 mx-auto text-center border border-dark">
+        <h2 class="my-5">Commander une taille personnalisée</h2>
+        <div class="my-5">
+          <br>
+          <br>
+          <br>
+          <p class="d-inline-flex">Envoyez-nous votre plan</p>
+          <button class="btn btl-lg">choissez un fichier</button>
+        </div>
+        <p>Merci d’indiquer de façon lisible toutes les cotes (en cm).</p>
+        <button class="btn btn-lg my-5">Devis</button>
+      </div>
+
+    </div>
+
+  </section>
 
 
   <!---------------------footer----------------------------->

@@ -8,6 +8,7 @@ color: #FFd966
 .navbar {
   background-color: #FFd966;
   font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
 }
 
 .navbar-nav {
@@ -32,56 +33,67 @@ nav a, footer a {
   border-radius: 15px;
 }
 
+/*
+.title-img-page {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.text-img-tête {
+  position: absolute;
+  top: 50%;
+
+}
+
+*/
 p {
   font-family: 'DM Sans', sans-serif;
+  font-size: 2em;
+  color: #8e0505;
 }
 
 h1 {
   font-family: 'Century Gothic', sans-serif;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: bolder;
   margin-bottom: 3%;
+  color: #ffffff;
 }
 
 h2 {
   font-family: 'Century Gothic', sans-serif;
-  font-size: 2em;
+  font-size: 40px;
+  color: #8e0505;
 }
+
+h3 {
+  font-size: 35px;
+  color: #8e0505;
+}
+
+.background-jaune {
+  background-color: #FFd966;
+
+}
+
 
 /**************carrousel***************/
 
 .text-carrousel {
   position: absolute;
-  top: 30%;
-  left: 15%;
+  top: 50%;
+  left: 10%;
   z-index: 1;
-  color: white;
-  height: 20vh;
-  width: 35vw;
 }
 
-.icon-contact-carrousel {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  z-index: 1;
-  color: white;
-
+#buttons-carrousel {
+  margin-left: 6em;
 }
 
 
-.icon-contact-carrousel a {
-  text-decoration: none;
-  color: #ffffff;
-}
 
-.btn-carrousel {
-  margin-left: 1vw;
-  width: 50vw;
-}
-
-
-/***********dui sommes nous *******/
+/***********qui sommes nous *******/
 
 #img-qui-sommes-nous {
   width: 53vw;
@@ -95,6 +107,107 @@ h2 {
 .card {
   width: 25em;
 }
+
+
+/*************** produit*************/
+#header-produit {
+  background-image: url(./photos/img-tete-produit.png);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.text-sur-img-header {
+  height: 60vh;
+}
+
+.icon-sur-img-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-sur-img-header p {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+
+
+/*************** contact*************/
+#header-produit {
+  background-image: url(./photos/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.text-sur-img-header {
+  height: 60vh;
+}
+
+.icon-sur-img-header a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-sur-img-header p {
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+.col-form-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5em;
+}
+
+#floatingTextarea {
+  height: 12vw;
+
+}
+
+
+
+/*************** concept*************/
+#header-concept {
+  background-image: url(./photos/concept.png);
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+}
+
+.img-eco-concues {
+  width: 23vw;
+}
+
+.p-eco-concues {
+  text-align: justify;
+  width: 80vw;
+}
+
+.img-king {
+  width: 25vw;
+}
+
+.p-mr-king {
+  width: 50vw;
+  text-align: justify;
+}
+
+.text-header-concept p {
+  color: #ffffff;
+}
+
+.text-header-concept {
+  position: absolute;
+  top: 45%;
+}
+
+.icon-tête-concept a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 40%;
+}
+
 
 /****************footer***********/
 
@@ -114,107 +227,130 @@ footer {
 
 /****************media queries***********/
 
-@media screen and (max-width: 1492px) {
+
+@media screen and (max-width: 1650px) {
+
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
-  h2 {
+  .text-carrousel {
+    top: 35vw;
+  }
+
+  .text-sur-img-header p {
     font-size: 2em;
+  }
+
+}
+
+/* iframe tailles téléphone et tablette */
+
+@media screen and (max-width: 991px) {
+  #map {
+    height: 35vw;
+    width: 70vw;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* iframe grandes tailles */
+
+@media screen and (min-width: 992px) {
+  #map {
+    height: 35vw;
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .text-carrousel {
-    top: 20%;
-    height: 20vh;
-    width: 55vw;
+    top: 40vw;
   }
 
-  h1 {
-    margin-bottom: 1%;
+  .text-carrousel h1 {
     font-size: 3em;
   }
 
-  .icon-contact-nav {
+  .text-carrousel p {
+    font-size: 2em;
+  }
+
+  #coordonée p {
+    font-size: 1em;
+  }
+
+  #coordonée h2 {
+    font-size: 1.5em;
+  }
+
+  .l-crochet {
+    width: 40vw;
+  }
+
+  .img-eco-concues {
     width: 55vw;
-    margin-left: 25vw
   }
 
-  .icon-contact-carrousel {
-    position: absolute;
-    top: 20%;
+  .img-king {
+    width: 70vw;
   }
-}
 
-@media screen and (max-width: 991px) {
-  .card {
-    width: 85vw;
+  .p-mr-king {
+    width: 70vw;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #img-qui-sommes-nous {
+
+  .l-crochet {
     width: 80vw;
-    height: auto
-  }
-
-  .text-carrousel {
-    top: 0%;
-    width: 70vw
-  }
-
-  .btn-carrousel {
-    margin-left: 0;
-    width: 70vw;
-  }
-
-  .icon-contact-carrousel svg {
-    width: 30px;
-    height: 35px;
-    margin: 0;
-  }
-
-  .btn-carrousel {
-    margin: 0;
-    font-size: 9px;
-    width: 90vw;
   }
 
   h1 {
-    margin-bottom: 1%;
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
-  .icon-contact-carrousel {
-    top: 10%;
-    z-index: 1;
-    color: white;
-
+  .text-sur-img-header p {
+    font-size: 1.5em;
   }
 
-  h2 {
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 2em;
+  #floatingTextarea {
+    height: 60vW;
   }
 
-  .text-carrousel h2 {
-    margin-bottom: 0;
+  #coordonée p {
     font-size: 1em;
   }
 
-  .btn-carrousel {
-    margin-left: 1vw;
+  #coordonée h2 {
+    font-size: 1.5em;
   }
 
-  .btn {
-    font-size: 1em;
+  .text-carrousel {
+    margin-top: 8em;
+    margin-left: 0;
+    margin-right: 5vw;
   }
 
-  .icon-contact-carrousel {
-    top: 5%;
-    left: 5%;
-    z-index: 1;
-
+  .text-carrousel h1 {
+    font-size: 1.5em;
   }
+
+  .text-carrousel p {
+    font-size: 0.9em;
+  }
+
+  .text-carrousel button {
+    font-size: 0.5em;
+  }
+
+  #buttons-carrousel {
+    margin-left: 0;
+  }
+
+  .img-eco-concues {
+    width: 60vw;
+  }
+
+
 }
